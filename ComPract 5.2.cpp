@@ -27,4 +27,4 @@ int main()
 
     int result = binom(&m, &n);
     cout << "C(" << m << ", " << n << ") = " << result << endl;
-}   ''
+}   
