@@ -23,6 +23,7 @@ int main()
 
     {
         cout << "Потрібно: 0 <= n <= m" << endl;
+		return 1;
     }
 
     int result = binom(&m, &n);
