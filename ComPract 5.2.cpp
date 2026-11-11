@@ -19,7 +19,7 @@ int main()
     int m, n;
     cout << "Введіть m та n: ";
     cin >> m >> n;
-    if (m < 0 || n < 0 || n > m)
+    if (m < 0 || n < 0 || n > m || n < m)
 
     {
         cout << "Потрібно: 0 <= n <= m" << endl;
